@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@600&display=swap');
+.container > .container1{
+height: 70%;
+width: 40%;
+max-width: 1000px;
+margin: auto;
+position: relative;
+top: 20%;
+border-radius: 20px;
+box-shadow: 0 0 0 4 rgba(0, 0,0, 1);
+  background-color: rgb(34, 81, 92);
+    text-align: center;
+   
+}
+
+.container1 > .cont{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+color: rgb(220, 247, 255);
+
+  width: 90%;
+  margin: auto;
+ 
+}
+.container1 > .cont > h3{
+  font-weight: 400;
+  font-family: 'Jura', sans-serif;
+}
+.container1 > .cont > h3 > span{
+  margin-left: .5rem;
+}
+.container1 > .dis-f{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  line-height: .1;
+  margin: auto;
+}
+.container1 > .dis-f > .input-me{
+ 
+  width: 80%;
+  height: 4vh;
+  border-radius: 40px;
+  background-color: rgb(129, 171, 197);
+  outline: none;
+  border: none;
+}
+.container1 > .dis-f > p{
+  color: rgb(220, 247, 255);
+  font-size: 1.6rem;
+  font-family: 'Jura', sans-serif;
+}
+.container1 > .dis-f > .element > p{
+  font-size: 2.3rem;
+  font-family: 'Jura', sans-serif;
+  color: white;
+ 
+}
+.container1 > .card{
+  width: 100%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.container1 > .card > .card1{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  height: 13vh;
+  text-align: center;
+  
+  line-height: .5;
+ 
+}
+.container1 > .card > .card1 > h3{
+  color: white;
+  font-family: 'Jura', sans-serif;
+}
+.container1 > .card > .card1 > .element1 > p{
+  font-family: 'Jura', sans-serif;
+  color: rgb(220, 247, 255);
+  font-size: 1.2rem;
+}
+.container1 > .card > .card1 > .fa-solid{
+ color: rgb(220, 247, 255);
+  font-size: 1.1rem;
+}
+@media screen and (max-width:1231px) {
+  .container > .container1{
+    height: 70%;
+    width: 70%;
+       
+    }
+}
+@media screen and (max-width:701px) {
+  .container > .container1{
+    height: 70%;
+    width: 90%;
+   
+       
+    }
+    .container1 > .card > .card1{
+      width: 30%;
+    }
+    .container1 > .card{
+      margin-top: 2rem;
+    }
+    .container > .container1{
+      position: relative;
+top: 15%;
+    }
+    .container1 > .dis-f > .element > p{
+      font-size: 3rem;
+      font-family: 'Jura', sans-serif;
+      color: white;
+     
+    }
+    .container1 > .dis-f > .element > p > span{
+      font-size: 3rem;
+      font-family: 'Jura', sans-serif;
+      color: white;
+     
+    }
+}
